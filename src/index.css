@@ -1,68 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    --font-family-text: 'Nunito', sans-serif;
+    --font-family-headings: 'Playfair Display', serif;
+    --font-family-handwriting: 'Dancing Script', cursive;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+    --primary-color: #1E3A8A;
+    --primary-color-hover: #2B4CB3;
+    --primary-color-disabled: #94A3B8;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --primary-color-light: #06B6D4;
+    --primary-color-light-hover: #0891B2;
+    --primary-color-light-disabled: #BAE6FC;
+
+    --secondary-color: #FACC15;
+    --secondary-color-hover: #EAB308;
+    --secondary-color-disabled: #FEF08A;
+
+    --bg-color: #F9FAFB;
+
+    --text-color: #111827;
+    --text-color-light: #6B7280;
+
+    --success-color: #10B981;
+    --error-color: #EF4444;
+
+    --font-size-xs: 12px;
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-l: 24px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 48px;
+    --font-size-xxxl: 64px;
+
+    --font-weight-regular: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+
+    --spacing-xxs: 0.25rem;
+    --spacing-xs: 0.5rem;
+    --spacing-s: 1rem;
+    --spacing-m: 2rem;
+    --spacing-l: 3rem;
+    --spacing-xl: 4rem;
+    --spacing-xxl: 6rem;
+
+    --margin-xxs: var(--spacing-xxs);
+    --margin-xs: var(--spacing-xs);
+    --margin-s: var(--spacing-s);
+    --margin-m: var(--spacing-m);
+    --margin-l: var(--spacing-l);
+    --margin-xl: var(--spacing-xl);
+
+    --padding-xxs: var(--spacing-xxs);
+    --padding-xs: var(--spacing-xs);
+    --padding-s: var(--spacing-s);
+    --padding-m: var(--spacing-m);
+    --padding-l: var(--spacing-l);
+    --padding-xl: var(--spacing-xl);
+    --padding-xxl: var(--spacing-xxl);
+
+    --gap-xxs: var(--spacing-xxs);
+    --gap-xs: var(--spacing-xs);
+    --gap-s: var(--spacing-s);
+    --gap-m: var(--spacing-m);
+    --gap-l: var(--spacing-l);
+    --gap-xl: var(--spacing-xl);
+
+    --border-radius-xs: 4px;
+    --border-radius-s: 8px;
+    --border-radius-l: 16px;
+    --border-radius-xl: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: var(--font-family-text);
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-headings);
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+    text-decoration: none;
+    color: inherit;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+ul {
+    list-style: none;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
