@@ -1,0 +1,23 @@
+.home-page {
+    padding: var(--padding-m) var(--padding-l);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-m);
+    align-items: center;
+}
+
+.home-page .home-page-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+    align-items: center;
+}
+
+.home-page .spin-globe {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url("/images/globe.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

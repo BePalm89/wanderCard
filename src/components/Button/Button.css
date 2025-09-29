@@ -1,0 +1,30 @@
+.btn {
+    padding: var(--padding-xs) var(--padding-s);
+    border: none;
+    font-family: var(--font-family-text);
+    border-radius: var(--border-radius-s);
+    cursor: pointer;
+    font-size: var(--font-size-s);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-xs);
+}
+
+.btn.primary {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.btn.primary:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.btn.secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.btn.secondary:hover {
+    background-color: var(--secondary-color-hover);
+}
