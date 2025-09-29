@@ -97,3 +97,9 @@ ul {
     list-style: none;
 }
 
+.simple-flex {
+    display: flex;
+    gap: var(--gap-s);
+    align-items: center;
+}
+
