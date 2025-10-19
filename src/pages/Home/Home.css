@@ -21,3 +21,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.rules-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+}
+
+ul.rules-list  {
+    list-style: disc;
+}

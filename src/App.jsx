@@ -1,6 +1,6 @@
-import './App.css'
+import "./App.css";
 
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home/Home.jsx";
 import Favourite from "./pages/Favourite/Favourite.jsx";
@@ -11,20 +11,21 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
-
   return (
     <>
-    <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/favourites" element={<Favourite />} />
-        <Route path="/visited" element={<Visited />} />
-        <Route path="/country/:id" element={<CountryDetails />} />
-        <Route path="/postcard" element={<Postcard />} />
-      </Routes>
-    <Footer />
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/favourites" element={<Favourite />} />
+          <Route path="/visited" element={<Visited />} />
+          <Route path="/country/:name" element={<CountryDetails />} />
+          <Route path="/postcard" element={<Postcard />} />
+        </Routes>
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

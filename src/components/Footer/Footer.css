@@ -1,8 +1,6 @@
 .footer {
     background-color: var(--secondary-color);
     padding: var(--padding-s);
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 

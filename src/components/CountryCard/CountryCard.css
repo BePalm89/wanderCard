@@ -1,0 +1,48 @@
+.card-container {
+    width: 350px;
+    height: 450px;
+    border-radius: var(--border-radius-m);
+    position: relative;
+    margin-bottom: var(--margin-l);
+}
+
+.card-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-m);
+}
+
+.country-name {
+    position: absolute;
+    top: 16px;
+    right: -30px;
+    background-color: var(--primary-color-light);
+    padding: var(--padding-xs);
+    border-radius: var(--border-radius-s);
+    font-family:  var(--font-family-handwriting);
+    text-transform: uppercase;
+    color: var(--bg-color);
+}
+
+.custom-icon {
+    position: absolute;
+    bottom: -27px;
+    background-color: var(--bg-color);
+    padding: var(--padding-s);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-icon.down {
+    left: 24px;
+    border: 2px solid var(--error-color);
+}
+
+.custom-icon.up {
+    right: 24px;
+    border: 2px solid var(--success-color);
+
+}

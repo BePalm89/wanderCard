@@ -1,0 +1,13 @@
+.country-title {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    gap: var(--gap-xs);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    width: fit-content;
+    font-family: var(--font-family-handwriting);
+    border-radius: var(--border-radius-s);
+    font-size: var(--font-size-m);
+}

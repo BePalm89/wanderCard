@@ -1,0 +1,59 @@
+.details-country-container {
+    padding: var(--padding-m);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-m);
+}
+
+.details-country-image {
+    width: 100%;
+    height: 550px;
+    border-radius: var(--border-radius-m);
+    position: relative;
+}
+
+.badges {
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-s);
+    z-index: 2;
+}
+
+.btn-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: var(--gap-s);
+    z-index: 2;
+}
+
+.details-country-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-m);
+}
+
+
+.details-country-two-columns {
+    display: flex;
+    gap: var(--gap-m);
+    flex-wrap: wrap;
+}
+
+.details-country-half {
+    flex: 1;
+    width: 400px;
+    min-width: 400px;
+}
+
+.food-list {
+    display: flex;
+    gap: var(--gap-m);
+    overflow: auto;
+}
+
