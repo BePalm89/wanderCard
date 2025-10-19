@@ -1,0 +1,22 @@
+.card-layout-container {
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius-m);
+    position: relative;
+    padding: var(--padding-m);
+}
+
+.card-layout-title {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background-color: white;
+    padding: 0 var(--padding-s);
+    color: var(--primary-color);
+}
+
+.card-layout-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--gap-m)
+}

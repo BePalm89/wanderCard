@@ -28,3 +28,33 @@
 .btn.secondary:hover {
     background-color: var(--secondary-color-hover);
 }
+
+.btn.outline {
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-color);
+}
+
+.btn.outline:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.btn.matched {
+    background-color: var(--success-color);
+    color: var(--bg-color);
+}
+
+.btn.matched:hover {
+    background-color: var(--success-color-hover);
+    color: var(--bg-color);
+}
+
+.btn.visited {
+    background-color: var(--primary-color-light);
+    color: var(--bg-color);
+}
+
+.btn.visited:hover {
+    background-color: var(--primary-color-light-hover);
+    color: var(--bg-color);
+}

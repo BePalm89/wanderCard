@@ -1,0 +1,20 @@
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    font-size: var(--font-size-s);
+    padding: var(--padding-xs);
+    border-radius: var(--border-radius-xs);
+    gap: var(--padding-xs);
+}
+
+.badge.matched {
+    background-color: var(--success-color);
+    color: var(--bg-color);
+}
+
+.badge.visited {
+    background-color: var(--primary-color-light);
+    color: var(--bg-color);
+}

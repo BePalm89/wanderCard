@@ -1,0 +1,22 @@
+.country-detail-card-container {
+    width: 350px;
+    height: 350px;
+    border-radius: var(--border-radius-m);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.country-detail-card-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-m);
+    transition: transform 0.5s ease-in-out;
+}
+
+.country-detail-card-container img:hover {
+    transform: scale(1.1);
+}
+
+

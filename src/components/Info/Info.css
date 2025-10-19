@@ -1,0 +1,20 @@
+.info-container {
+    display: flex;
+    gap: var(--gap-xs);
+    align-items: center;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+}
+
+.info-title {
+    color: var(--text-color-light);
+}
+
+.info-value {
+    color: var(--text-color);
+    font-weight: var(--font-weight-bold);
+}
