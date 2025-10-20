@@ -111,7 +111,7 @@ The Country Detail Page provides an in-depth look at a specific country, combini
 - Food Box: If available, shows a typical recipe from the country, highlighting local cuisine.
 - Set as Favorite or Visited: Users can mark the country as favorite or visited if it hasn’t already been added.
 - Visited and Favorite Badges: If the country is already marked as visited, favorite, or both, badges are displayed to indicate its status.
-- Redirection After Action: When a user marks the country as favorite or visited, they are automatically redirected to the corresponding list page (Favorites or Visited)
+- Redirection After Action: When a user marks the country as favorite or visited, they are automatically redirected to the corresponding list page (Favorites or Visited) and saved in the localStorage
 - Navigation Links: Easy access to other sections of the app, such as Home, Favorites, Visited, or Postcards pages, using React Router Links.
 
 The Country Detail Page combines informative content with interactive functionality, allowing users to learn about a country while easily managing their travel lists.
@@ -135,3 +135,7 @@ The Postcard Page allows users to create personalized postcards from the countri
 - Validation and Send Button: The "Send Postcard" button remains disabled until all form inputs are valid. Once the postcard is successfully sent, the user is redirected to the Visited Page.
 - Navigation Links: Easy access to other sections of the app, such as Home, Favorites, Visited, or Postcards pages, using React Router Links.
 
+### Demo:
+
+The project has been deployed and is now accessible at https://wander-card-qudwc3bzt-bepalm89s-projects.vercel.app
+.
