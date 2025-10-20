@@ -134,3 +134,13 @@ main {
     justify-content: space-between;
     padding: var(--padding-m);
 }
+
+.no-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-m);
+    margin-top: var(--margin-xl);
+    text-align: center;
+}

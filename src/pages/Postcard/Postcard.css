@@ -1,0 +1,11 @@
+.postcard-container {
+    padding: var(--padding-m);
+}
+
+.postcard-content {
+    display: flex;
+    gap: var(--gap-m);
+    flex-wrap: wrap;
+}
+
+
